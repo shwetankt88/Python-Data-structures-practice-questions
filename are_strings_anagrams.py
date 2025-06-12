@@ -7,6 +7,6 @@ def are_strings_anagrams(string1,string2):
         return True
     else:
         return False
-print(are_strings_anagrams("listen","silent"))
+print(are_strings_anagrams("listen","silentanagram"))
 print(are_strings_anagrams("liste","silent"))
 
