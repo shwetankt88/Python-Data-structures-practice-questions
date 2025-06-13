@@ -14,7 +14,7 @@ def longestConsecutive(nums):
                 
             elif nums[i]==nums[i+1]:
                 continue
-                print("")
+                print("conflict")
 
             elif nums[i]+1 != nums[i+1] and nums[i]-1==nums[i-1]:
                 fin_list1.append(nums[i])
