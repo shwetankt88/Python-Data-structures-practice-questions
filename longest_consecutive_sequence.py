@@ -13,7 +13,7 @@ def longestConsecutive(nums):
                 
             elif nums[i]==nums[i+1]:
                 continue
-ok
+
             elif nums[i]+1 != nums[i+1] and nums[i]-1==nums[i-1]:
                 fin_list1.append(nums[i])
                 if len(fin_list1) > len(fin_list2):
