@@ -4,5 +4,5 @@ def pow(x,n):
     else:
         return x*pow(x,n-1)
 
-print(pow(3,2))
+print(pow(3,20))
         

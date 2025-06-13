@@ -1,3 +1,4 @@
+#find the factorial of a number
 def fact(val):
     if val==0:#checking base case
         return 1
