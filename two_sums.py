@@ -6,12 +6,13 @@ def two_sum(items, target):
             return True
         seen.add(i)
     return False
-#this method is better because if we had only used lists, 
+#this method is better because if we had only used lists,
 # then we would have to put two nested loops in the program to check the numbers
 
 nums = [10, 15, 3, 7]
 k = 17
-print(two_sum(nums,k)) 
+print(two_sum(nums,k))
 nums2 = [1, 2, 3, 9]
 k2 = 8
-print(two_sum(nums2,k2)) 
+print(two_sum(nums2,k2))
+#too show

@@ -9,5 +9,6 @@ def stringremove(stringname):
     final_string="".join(listname)#join function to change the list to a string to return final ans
     return final_string#final return statement
 
-    
-print(stringremove("banana"))  
+
+print(stringremove("banana"))
+#to show
