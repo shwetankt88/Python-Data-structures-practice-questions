@@ -1,4 +1,4 @@
-def stringremove(stringname):
+def stringremove_duplicates(stringname):
     setname=set()#initializing an empty set
     listname=[]#initializing an empty list
     for i,v in enumerate(stringname):#loop to iterate the list
@@ -11,4 +11,4 @@ def stringremove(stringname):
 
 
 print(stringremove("banana"))
-#to show
+#edited
